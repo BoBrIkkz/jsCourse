@@ -1,0 +1,27 @@
+let title = 'Project';
+let screens = 'Простые, Сложные, Интерактивные';
+let screenPrice = '2500';
+let rollback = '100';
+let fullPrice = '50000';
+let adaptive = true;
+
+console.log('1]');
+console.log(title);
+console.log(typeof(title));
+console.log(fullPrice);
+console.log(typeof(fullPrice));
+console.log(adaptive);
+console.log(typeof(adaptive));
+console.log(' ');
+console.log('2] ');
+console.log(screens.length);
+console.log(' ');
+console.log('3] ');
+console.log('Стоимость верстки экранов ' + screenPrice + ' рублей' + ' и ' + 'Стоимость разработки сайта ' + fullPrice + ' рублей');
+console.log(' ');
+console.log('4] ');
+console.log(screens.toLowerCase());
+console.log(screens.split());
+console.log(' ');
+console.log('5] ');
+console.log((fullPrice * (rollback / 100)));
